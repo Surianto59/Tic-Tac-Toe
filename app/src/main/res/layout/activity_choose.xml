@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".ChooseActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pick_your_sign"
+        android:textSize="30sp"
+        android:textStyle="italic|bold" />
+
+    <Button
+        android:id="@+id/btn_cross"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/ic_cross"
+        android:onClick="actionCross"/>
+
+    <Button
+        android:id="@+id/btn_nought"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_nought"
+        android:onClick="actionNought"/>
+</LinearLayout>

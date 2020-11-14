@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="player_vs_player">Player vs Player</string>
+    <string name="player_vs_com">Player vs Com</string>
+    <string name="pick_your_sign">Pick your sign</string>
+    <string name="game_title">Tic Tac Toe</string>
+</resources>
